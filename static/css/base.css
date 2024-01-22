@@ -15,6 +15,11 @@ body {
 	background-image: linear-gradient(to right top, #24318b, #1f4da5, #1e68bd, #2683d3, #389fe7);
 	border-bottom-left-radius: 7rem;
 	border-bottom-right-radius: 7rem;
+}
+#headerLogoContainer {
+	height: 10vh;
+}
+#headerBody {
 	display: flex;
 	flex-direction: row;
 }
@@ -28,5 +33,5 @@ body {
 }
 #thumbnailIcon {
 	aspect-ratio: 1;
-	width: 68%;
+	width: 64%;
 }
