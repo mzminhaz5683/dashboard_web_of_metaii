@@ -52,6 +52,7 @@ body {
 	width: 64%;
 }
 .baseButton {
+	text-decoration: none;
 	cursor: pointer;
 	background-image: linear-gradient(to top, #f06622, #f5791c, #f88b17, #fa9d15, #fbaf18);
 	width: fit-content;
