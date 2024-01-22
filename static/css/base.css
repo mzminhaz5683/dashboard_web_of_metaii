@@ -10,6 +10,9 @@ body {
 	background-color: white;
 	border-bottom-left-radius: 7rem;
 	border-bottom-right-radius: 7rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 }
 #baseHeader {
 	height: 75vh;
@@ -61,8 +64,8 @@ body {
 	box-shadow: 0px 1px 3px 0px #6DAC15;
 }
 .contactButton {
-	padding: 0.5% 1.5%;
-	padding-top: 0.7%;
+	padding: 1.5% 4.5%;
+	margin: auto;
 }
 .baseButton:hover {
 	background-image: linear-gradient(to top, #e16324, #dc6f1c, #d77916, #d18312, #cb8d12);
@@ -79,14 +82,33 @@ body {
 	font-weight: bold;
 }
 #detailContainer {
-
+	display: flex;
+	width: 90%;
+	height: 18vh;
+	margin: 0 auto;
+	justify-content: space-between;
 }
 .detailItemContainer {
-
+	width: 33%;
+	margin: auto;
+	display: flex;
 }
-.detailItemContainerWithRightMargin {
-
+.detailItem {
+	width: 45%;
+	height: 13vh;
+	text-align: center;
+	margin: 3% auto 0% auto;
+}
+.detailItemContainerRightMargin {
+	width: 0.3%;
+	background-color: #a7a8ab;
 }
 .detaileItemTitle {
-
+	font-size: 15pt;
+	font-weight: bold;
+}
+.detaileItemDescription {
+	font-size: 14pt;
+	color: #a7a8ab;
+	margin-top: 3%;
 }
