@@ -19,6 +19,14 @@ body {
 #headerLogoContainer {
 	height: 10vh;
 }
+#headerLogoText {
+	color: white;
+	font-size: 30pt;
+	font-weight: bold;
+	font-family: sans-serif;
+	margin: 0 auto;
+	padding: 1.2% 5%;
+}
 #headerBody {
 	display: flex;
 	flex-direction: row;
