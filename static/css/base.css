@@ -33,9 +33,11 @@ body {
 }
 #headerDescriptionContainer {
 	width: 50%;
+	margin: auto;
 }
 #headerDescription {
-	padding-left: 15%;
+	width: fit-content;
+	margin: auto;
 }
 #thumbnailContainer {
 	width: 50%;
@@ -50,9 +52,8 @@ body {
 	cursor: pointer;
 	background-image: linear-gradient(to top, #f06622, #f5791c, #f88b17, #fa9d15, #fbaf18);
 	width: fit-content;
-	padding: 1.1% 2.5%;
-	padding-top: 1.2%;
-	font-size: 15pt;
+	padding: 2% 5%;
+	font-size: 20pt;
 	font-weight: bold;
 	border-radius: 2rem;
 	color: white;
@@ -65,6 +66,17 @@ body {
 }
 .baseButton:hover {
 	background-image: linear-gradient(to top, #e16324, #dc6f1c, #d77916, #d18312, #cb8d12);
+}
+#headerDescriptionTitle {
+	font-size: 25pt;
+	color: white;
+	font-weight: bold;
+}
+#headerDescriptionText {
+	font-size: 17pt;
+	color: white;
+	padding: 6% 0;
+	font-weight: bold;
 }
 #detailContainer {
 
